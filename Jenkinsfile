@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("ggriffin924/tomcat7")
+        app = docker.build("ggriffin924/node-test")
     }
 
     stage('Test image') {
